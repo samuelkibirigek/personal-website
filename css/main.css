@@ -58,7 +58,7 @@ h3 {
 }
 
 h3 span {
-  background-color: #76ABAE;
+  background-color: var(--body-background);
   padding-right: 10px;
 }
 
@@ -282,7 +282,7 @@ h3:after {
 /* Navbar -------------------------------------------- */
 .bg-navbar,
 .bg-footer {
-  background: #31363F;
+  background: var(--nd-blue);
 }
 
 #page-navbar nav {
